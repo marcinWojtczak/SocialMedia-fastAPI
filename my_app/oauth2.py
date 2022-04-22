@@ -33,9 +33,7 @@ def create_access_token(data: dict):  # data -> payload
     return encoded_jwt
 
 
-""" funkcja sprawdza czy hasło dostarczone przez użytkownika jest takie samo jak
-hasło zaszyfrowane w bazie danych"""
-
+# check if password received from users is equal hashed password in db
 def verify_access_token(token: str, credentials_exceptions):
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
