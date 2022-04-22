@@ -1,0 +1,8 @@
+__pycache__
+.env
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+.pytest_cache/
+tests/
