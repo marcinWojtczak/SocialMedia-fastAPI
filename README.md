@@ -1,6 +1,6 @@
 # SocialMedia-fastAPI
 
-This is social media project to help me learn how to create API and get to know with fastAPI famework.
+This is social media project to help me learn how to create API and get to know with fastAPI framework.
 
 ## Technologies
 
