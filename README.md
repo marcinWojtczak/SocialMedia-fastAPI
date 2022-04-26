@@ -9,7 +9,9 @@ Project is created with:
 * fastapi: 0.71.0
 * psotgresql
 
-## Setup
+## How to use
 
-To run this project install:
-* 
+###clone this repository
+git clone https://github.com/marcinWojtczak/SocialMedia-fastAPI.git
+
+###
