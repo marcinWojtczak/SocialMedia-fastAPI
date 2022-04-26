@@ -1,12 +1,10 @@
 from jose import JWTError, jwt
 from datetime import datetime, timedelta
-from my_app import schemas
-from my_app import database
-from my_app import models
+import schemas, database, models
 from fastapi import Depends, status, HTTPException
 from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
-from my_app.config import settings
+from config import settings
 
 
 # This parameter contains the URL that the client (the frontend running in the user's browser)
