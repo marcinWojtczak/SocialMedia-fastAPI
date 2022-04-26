@@ -11,7 +11,7 @@ Project is created with:
 
 ## How to use
 
-###clone this repository
+clone this repository
 git clone https://github.com/marcinWojtczak/SocialMedia-fastAPI.git
 
-###
+
