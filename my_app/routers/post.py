@@ -3,9 +3,9 @@ from fastapi import Response
 from fastapi import status, HTTPException, Depends, APIRouter
 from sqlalchemy.orm import Session
 from sqlalchemy import func
-import oauth2
-from database import get_db
-import models, schemas
+from my_api.my_app import oauth2, models, schemas
+from my_api.my_app.database import get_db
+
 
 router = APIRouter(
     prefix='/posts',
