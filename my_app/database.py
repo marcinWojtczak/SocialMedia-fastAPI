@@ -33,7 +33,7 @@ def get_db():
 #                                 user='postgres',
 #                                 password="342110",
 #                                 cursor_factory=RealDictCursor)
-#         #  Open a cursor to perform database operations
+#         # Open a cursor to perform database operations
 #         cursor = conn.cursor()
 #         print('Database connection was successfully')
 #         break
