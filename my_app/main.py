@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import models
+from my_api.my_app import models
 from database import engine
 from routers import post, user, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
