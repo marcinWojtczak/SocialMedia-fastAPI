@@ -18,7 +18,7 @@ def create_user(user: schemas.CreateUser, db: Session = Depends(get_db)):
     hashed_password = hash_password(user.password)
     user.password = hashed_password
 
-    new_user = User(**user.dict())   # unpacked schema pydantic model to our db models
+    new_user = User(**user.dict())  # unpacked schema pydantic model to our db models
     db.add(new_user)
     db.commit()
     db.refresh(new_user)  # display new_user
