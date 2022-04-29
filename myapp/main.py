@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from myapp import models
 from myapp.database import engine
-from routers import post, user, auth, vote
+from myapp.routers import post, user, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
 
 # SQLAlchemy should check whether a table already exists before trying to create it
