@@ -14,7 +14,7 @@ Project is created with:
 1. Clone this repository:
 git clone https://github.com/marcinWojtczak/SocialMedia-fastAPI.git
 
-2. Go to folder SocialMedia_fastAPI/my_app
+2. Go to folder SocialMedia_fastAPI/myapp
 
 3. Run App:
 uvicorn main:app
